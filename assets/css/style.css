@@ -1,0 +1,148 @@
+#boxgray-top {
+
+
+}
+
+
+
+
+#Portfolio {
+    color: rgb(0, 174, 168);
+    background-color: gray;
+    text-indent: 92px;
+}
+
+
+
+
+.box {
+    width: 1329px;
+    height: 6px;
+    background-color:gray;
+}
+
+
+
+googlefont {
+
+    font-family: 'Anton', sans-serif,'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    width: 50px;
+    padding: 500px;
+    background-color: black;
+    position: absolute;
+    right: 300;
+    top: 500;
+}
+
+
+
+.infoBar {
+    
+    float: right;
+    margin: 10px 10px 10px 10px;
+    position: static;
+    left: 30px;
+    border: none;
+}
+
+
+
+#bio,
+#icons,
+#connect,
+#stacked,
+#linkedin,
+#github, {
+    float: left;
+}
+
+#bio {
+    width: 70%;
+}
+
+#connect, {
+    width: 30%;
+}
+
+
+
+#headshot {
+
+    
+    
+    position: relative;
+}
+
+#bio {
+
+    text-align: center;
+    font-family: 'Anton', sans-serif, 'Times New Roman', Times, serif;
+    position:relative;
+    color: black;
+    font-size: 18px;
+    line-height: 150%;
+    background-color:white;
+    line-height: 18px;
+    right: 200px;
+    left: 100px;
+    
+
+   }
+
+#icons {
+    
+    font-family: 'Anton', sans-serif, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    height: 270px;
+    width: 306px;
+    left: 1000px;
+    top: 170px;
+    bottom: 40px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+}
+
+#github {
+    
+    position: relative;
+    border: none;
+    right: 70px;
+
+}
+
+#linkedin {
+    
+    position: relative;
+    border: none;
+    right: 50px;
+}
+
+#stack {
+    
+    position: relative;
+    border: none;
+    right: 30px;
+
+}
+
+#copyright {
+    
+    position: static;
+    font-family: 'Anton', sans-serif,'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    bottom: 300px; 
+
+}
+
+a {
+
+    color: grey;
+
+}
+

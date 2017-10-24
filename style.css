@@ -7,7 +7,24 @@
     text-indent: 50px;
 }
 
+.github {
+    float: right;
+    position: relative;
+
+
+}
+
+.linkedin {
+    float:right;
+
+}
     
+.stacked{
+    float: right;
+
+
+}
+
 h1 {
     background-color:rgb(0, 174, 168);
 }
@@ -36,17 +53,23 @@ h1 {
     
 }
 #connect {
-   color:rgb(0, 174, 168);
-    width: 1334px;
-    height: 1000px;
-    background-color: rgb(238, 238, 238);
+    color: white;
+    float: right;
+    margin: 0px;
+    height: 248px;
+    width: 280px;
+    position: relative;
+    bottom: 2px;
+    border-right: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 20px;
+    
        }
-
-   /* background-color:white; */
 
 
 .box {
-    width: 1329px;
+    width: 1335px;
     height: 6px;
     background-color:gray;
 }
@@ -132,10 +155,9 @@ background:#0f0;
 
 #headshot {
 
+    float: left;
+
     
-    left: 40px;
-    top: 200px;
-    position: absolute;
 }
 
 #words {
@@ -155,7 +177,8 @@ background:#0f0;
     font-family: 'Anton', sans-serif;
     height: 270px;
     width: 306px;
-    left: 1000px;
+    Boarder: 1px, solid black;
+    left: 1100px;
     top: 184px;
     background-color: white;
     position: absolute;
@@ -166,5 +189,20 @@ background:#0f0;
     font-family: 'Anton', sans-serif;
     text-align: center;
     position: static;
-    bottom: 400px;
+    margin-bottom: 10px;
+    padding-top:412px
+}
+
+#bio {
+   
+    float: left;
+    margin: 0, 0, 10px, 10px;
+    font-size: 18px;
+
+}
+ 
+textarea{
+
+    width: 640px;
+    height: 200px;
 }
